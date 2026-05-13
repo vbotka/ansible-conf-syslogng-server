@@ -1,0 +1,4 @@
+---
+plugins_install:
+  connection: [jailexec]
+  inventory: [iocage]

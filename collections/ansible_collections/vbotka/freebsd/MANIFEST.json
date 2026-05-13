@@ -1,0 +1,39 @@
+{
+ "collection_info": {
+  "namespace": "vbotka",
+  "name": "freebsd",
+  "version": "0.8.20",
+  "authors": [
+   "Vladimir Botka <vbotka@gmail.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "freebsd",
+   "iocage",
+   "infrastructure"
+  ],
+  "description": "FreeBSD collection.",
+  "license": [
+   "BSD-2-Clause",
+   "GPL-3.0-or-later"
+  ],
+  "license_file": null,
+  "dependencies": {
+   "ansible.posix": "*",
+   "ansible.utils": "*",
+   "community.general": "*"
+  },
+  "repository": "https://github.com/vbotka/ansible-collection-freebsd/",
+  "documentation": "https://ansible-collection-freebsd.readthedocs.io/",
+  "homepage": "https://github.com/vbotka/ansible-collection-freebsd/wiki/",
+  "issues": "https://github.com/vbotka/ansible-collection-freebsd/issues/"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "0f05b9f957b41f2dd30cf1d4a934b17abca91a7f51668601a70914a326817a74",
+  "format": 1
+ },
+ "format": 1
+}

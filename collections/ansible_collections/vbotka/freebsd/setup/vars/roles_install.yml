@@ -1,0 +1,4 @@
+---
+roles_install:
+  - lib
+  - postinstall
