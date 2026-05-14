@@ -8,13 +8,6 @@
    "format": 1
   },
   {
-   "name": "README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "2fe1d83b1e1c87a1e135cfa63a5d4d89506c08b7f282085084dd492365c1939c",
-   "format": 1
-  },
-  {
    "name": "playbooks",
    "ftype": "dir",
    "chksum_type": null,
@@ -67,7 +60,7 @@
    "name": "playbooks/pb_iocage_plugins.yml",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "4fb342386dcef3b4578663d5b1410b7d7f3377cd989cfca465ff475ebb6eee30",
+   "chksum_sha256": "893ec3bd77af6124e52b8f273f75f8a5feb93a920bf1fd8547332cbb9fa422c0",
    "format": 1
   },
   {
@@ -78,241 +71,17 @@
    "format": 1
   },
   {
-   "name": "setup/distfiles",
+   "name": "setup/sync",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "setup/distfiles/modules",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/modules/iocage.py",
+   "name": "setup/sync/ansible-conf-syslogng.txt",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "da60472450abe2e89d24c6fc466212d7b082a75168ff140a919f6904bfda4b04",
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/modules/ucl.py",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "2e78de1bcf0d30dc3b5490fd9add695812f539ceaa4991e50e594aa38dafac60",
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/inventory",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/inventory/iocage.py",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "95d2d225afbb2616cc4e9e6de7600f228bb72ed9ba2f5520f7992c5dd5615f06",
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/connection",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/distfiles/connection/jailexec.py",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "abc04e70b773b1ba8afda3486b52c19843594941033b147f5ddf2ef6fc1d0136",
-   "format": 1
-  },
-  {
-   "name": "setup/vars",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/vars/roles.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "badd6d5f0c945cfa6e37fb05794cf2fdd6226e24c1fa4584bd2a07a73bbc9751",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/plugins_install.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "5fbd3aebbdb44361033bfa5538a40a0b07e5d5dbd1b57da4a1a26b2b85a25843",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/patch.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "bfea224758d9fe02dd97cd6a357f20dd014c16db2cdcb4ac1fb903cef720b8b8",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/roles_latest.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "9a651ad5bd6532b7d2ae9978d241ad5e11d750a1359b428090bea4f0d21007de",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/plugins.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "fc51e017c3a589e4bb128d31319522703530076bbd5baf700a46a46e5b9b0abd",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/configure.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "dfe6face62972d383e27ad7b7de4b9ed44ac1bf8da54381084233efb33624ef6",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/branch.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "4a3efbe395e378d55618e54cd5aa1393c1be4484a97a0f54951f06e98c2a0d8e",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/roles_install.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "723274e7d0d86edefc4c63dc6fe726a3837e0397eef18d762a27e9b0dc16680a",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/keywords.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "1264087fa4dc07473eba436dadf67f10091d68abdef2ca4e794381cf1224a21c",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/checksum.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "f9ea94cef12fe66a1f5e3b68e2226418ee8c822dcd7433d2956cdbd185353710",
-   "format": 1
-  },
-  {
-   "name": "setup/vars/setup.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "dfc8f1161e6a53c008cea54989e402365353b23831fa30a4360f0bc85ebe6300",
-   "format": 1
-  },
-  {
-   "name": "setup/files",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/files/module-ucl.release.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "7ab02d3d07aa57835931d874221e90937dfb7c487befc67540a97ba437e6d943",
-   "format": 1
-  },
-  {
-   "name": "setup/files/module-iocage.current.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "759309f05b58cfc08baeeac7b97a05051d156a892ead280e4231a14e80a42fc7",
-   "format": 1
-  },
-  {
-   "name": "setup/files/module-iocage.release.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "832b3e091c2f4d0199c84c3e815b296a82869b3b04c6f5ead258bf6dc2dd51b3",
-   "format": 1
-  },
-  {
-   "name": "setup/files/inventory-iocage.release.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e8ede40ae8477967d31bd55662f8a74c1dbd53615f4f9a77cac8ad28521b0b38",
-   "format": 1
-  },
-  {
-   "name": "setup/files/connection-jailexec.main.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "f04afe7bba7a705c69899eea1c75ea4545d505ad101302abafca77a4eee494d0",
-   "format": 1
-  },
-  {
-   "name": "setup/files/module-ucl.current.patch",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "7ab02d3d07aa57835931d874221e90937dfb7c487befc67540a97ba437e6d943",
-   "format": 1
-  },
-  {
-   "name": "setup/tasks",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/tasks/setup-roles.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "727317c2d11098760764858c477ef7f33c2eb120edc7a35b0b6baadd0da27b15",
-   "format": 1
-  },
-  {
-   "name": "setup/tasks/setup-plugins.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "770165deb7b251d4cbd6f33674d1161ce3410dbe8a567ce593f108be1515d2fc",
-   "format": 1
-  },
-  {
-   "name": "setup/tasks/conf-update_roles_tag_local.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "64021634cac689951ac14d0c9a80f0227f753f2f3f8aff7236a593ed634cdb0c",
-   "format": 1
-  },
-  {
-   "name": "setup/tasks/setup-debug.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "dff60e44d82d6a2510a4b3ab1fac24cea153c6790ef34ef99651e8543f8b2a8f",
-   "format": 1
-  },
-  {
-   "name": "setup/modules-in-role.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "ad8fb3d6051205f7d1b40b654bc47b6321e5435900c9b367dcb833098dc2b777",
-   "format": 1
-  },
-  {
-   "name": "setup/.configure.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "93fb847add56b84cb41bf6c1f87accefd48c91418a0ce9679b2aacb32ce1acde",
+   "chksum_sha256": "2136f05872b0f0fc680c0d47e5ca1f4a36c7a9c7b59a97be3dd8d7d652424bfa",
    "format": 1
   },
   {
@@ -320,223 +89,6 @@
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "b1601e4b89301cd6fe369179be0f76a3ff15ec25e8b96a7b713aa905dfa09c26",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/vars",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/vars/main.yml.sample",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "9d0ce35073d6feda95ec04e00da7ba3896c31db3fc7e2bf7e5cf3e4364600bae",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/.travis.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "2ff2e9d3082f96377b729e7a19c485bc6cae8bc9b8797ddfd662fe8f1a885608",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/.ansible-lint",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "fe4ab0a1d998fec373f0706636a016e09d6ad55919333e37145c5d15f81a0351",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tests",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tests/inventory",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "49960de5880e8c687434170f6476605b8fe4aeb9a28632c7995cf3ba831d9763",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tests/test.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "505703f285887c092f70fed731dc9ab79792e67cdc8e01421fb9ef62cf41ecc2",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks/help.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "974bceffef21898d391c4b3d8ea060f19daaf4eb49f5b2c4db7a86ddabb30503",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks/main.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "5663e7949b9cad5c71ca61680933ad8c7885528c58c060ae9866c1126b501bb0",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks/modules.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "a1c72fd46c82e53d8ec79446e9405a6c052852c557adacedb88a6a9af23bb390",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks/debug.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "0488fbbf97e7154e001f72ef6f8e784a8add77b00f9d5292094414e57a792573",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/tasks/vars.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "dff6d8d13fac6575c8939fc2d155a1ccee92282fdc1c6f25ca784a0085df1e77",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/versions.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "f6213039e72934bc79bcc3373bfe0a924014cbed2325d46e57b9f5d65637000d",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/files.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "01a02f4be7cfe9b682de024614b87b11df8e9d1840703de11828ab98e71d7c6b",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/help.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "13e69ecb212139eb55e9a2444f8ba1acb87c339c091d9444df51de9257216abd",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/modules.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "32745041ab1cce3e546ccb58a8af1e05381f94635227456dc71bcac2c9a64b72",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/options.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "d0a11a29286e925bed73153711ca451729b19dee32060bcbe0f1a26359acbe97",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/tags.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "5e117d9515620164cb6d5cc0da681ce5fb624038f405cb14bc05ff61d84dfdfc",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/defaults/main/install.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "ee6542c31f254da79589147b8675767087b796201c413648a9461ca1f63541cb",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/meta",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/meta/main.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "48e00c3aa0fab767d5ce2ea30f3b9b51ba5b7693568a742f9793708de8cfe982",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/LICENSE",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "0d363bfa6d4b67f565a1e80c202b4525955c17f1f1d6b86560ab33db7ff9c63f",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/.ansible-lint.local",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "53bfc83cba28893c31e1f8b82b7b4a00ce370b33d25affb969cbba5f1a746d84",
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/handlers",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "setup/roles/devel/handlers/main.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "3ffa60fe2d0b42b226b38d0f9bf8369c5fb94e5f842d6d4f8fd49e1fcf9c2705",
-   "format": 1
-  },
-  {
-   "name": "setup/setup.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "880200d838582e7e80bebd4f2ce8474068c4312ec2964b4dfa6de5fc02dd042e",
    "format": 1
   },
   {
@@ -554,24 +106,10 @@
    "format": 1
   },
   {
-   "name": "plugins/modules/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "format": 1
-  },
-  {
    "name": "plugins/modules/service.py",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "845c7c91915f46f10623f317d5ceb2fede9bfc7bba18680e7da60155ea78c644",
-   "format": 1
-  },
-  {
-   "name": "plugins/README.md",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "619e92c34e38322cbaa4229f9746f4beb0a8249b13cb4f426a57504ca9e6c349",
    "format": 1
   },
   {
@@ -589,13 +127,6 @@
    "format": 1
   },
   {
-   "name": "plugins/inventory/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "format": 1
-  },
-  {
    "name": "plugins/filter",
    "ftype": "dir",
    "chksum_type": null,
@@ -610,13 +141,6 @@
    "format": 1
   },
   {
-   "name": "plugins/filter/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "format": 1
-  },
-  {
    "name": "plugins/connection",
    "ftype": "dir",
    "chksum_type": null,
@@ -628,41 +152,6 @@
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "261226cad6dc86308f671b986e9a4b0cea37a552973cc24f39d6162986fde950",
-   "format": 1
-  },
-  {
-   "name": "plugins/connection/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "format": 1
-  },
-  {
-   "name": "plugins/lookup",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "plugins/lookup/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "format": 1
-  },
-  {
-   "name": "tests",
-   "ftype": "dir",
-   "chksum_type": null,
-   "chksum_sha256": null,
-   "format": 1
-  },
-  {
-   "name": "tests/config.yml",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "79299e4b233d86b7d878b2b35b6548347c28fd71a1166078a9958e6d8e6749c7",
    "format": 1
   },
   {
@@ -694,2201 +183,2194 @@
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3",
+   "name": "roles/lib",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/README.md",
+   "name": "roles/lib/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "16b039360cca94a345e8b2376d384579c8651df1f88c6c09a3927955f5d9b90c",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/vars",
+   "name": "roles/lib/vars",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/vars/main.yml.sample",
+   "name": "roles/lib/vars/main.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/vars/defaults",
+   "name": "roles/lib/vars/defaults",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/vars/defaults/default.yml",
+   "name": "roles/lib/vars/defaults/default.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6b6b8cc86866043513ad0ba665eccbf2117bdbb13915c1cf63e7e249b8bec4bd",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks",
+   "name": "roles/lib/tasks",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_sanity_packages.yml",
+   "name": "roles/lib/tasks/al_sanity_packages.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "eafff7c7d1cce17b6e9bef28d9f4509b414a63602f094d179233505bc662dc10",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_os_vars_path_incr.yml",
+   "name": "roles/lib/tasks/al_include_os_vars_path_incr.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0730666c3698d26aba83f84e1049576f7e3c75afd6248ea6b5a2c6aa76f87f5c",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_os_vars_path.yml",
+   "name": "roles/lib/tasks/al_include_os_vars_path.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6c6605ab7338afc9df561d0127ac016130f375f0113f28adb8be53ef0defd7bb",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_sanity_ansible_version.yml",
+   "name": "roles/lib/tasks/al_sanity_ansible_version.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ffc321f7ceea5764596faafae65bb8f2510675be1775d64ffd37324bcf11fe76",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_sanity_platform.yml",
+   "name": "roles/lib/tasks/al_sanity_platform.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1649bf0571ef251dd5b800129e4018ffcab360f9cf0e88eed8224b924746cf2b",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/fn",
+   "name": "roles/lib/tasks/fn",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/fn/al_include_confd_vars_list_plain.yml",
+   "name": "roles/lib/tasks/fn/al_include_confd_vars_list_plain.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ef0a2c4a0b033bf3b5612f1ec2740a882e53ef2b38748cce7676cca96ced6dcb",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/fn/al_include_sanity_platform_test_vars.yml",
+   "name": "roles/lib/tasks/fn/al_include_sanity_platform_test_vars.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b9a6abe0c901a4a5a1e2e76e1b1ca8871aa64f64bae2a7713dce17a0793b6445",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/fn/al_include_confd_vars_list_fname.yml",
+   "name": "roles/lib/tasks/fn/al_include_confd_vars_list_fname.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1e82213099c2279e6cbae67351751a8a96199152898b4797c5f27b1b918d5d92",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_os_vars_playbook_dir_incr.yml",
+   "name": "roles/lib/tasks/al_include_os_vars_playbook_dir_incr.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d6b2bb4e22c180d0425c4b37cad4ece86585d864af577a61f008f8eeead3dda7",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_os_vars_playbook_dir.yml",
+   "name": "roles/lib/tasks/al_include_os_vars_playbook_dir.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0388d63137e29ad8d6e42527b903bb7048df7be7ee3d04ee0686d806589f8081",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_find_newer.yml",
+   "name": "roles/lib/tasks/al_find_newer.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "03313d664b8db6a01dd3627a2c932731770466eaccab05b24d0789e3d89715aa",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/main.yml",
+   "name": "roles/lib/tasks/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ed487022a4b524574924de4987380ffb5ed2e738f817aa2f8458238e309054e5",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_confd_vars_list.yml",
+   "name": "roles/lib/tasks/al_include_confd_vars_list.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "da33f9959ab0371222d2267680f64d01f751c6ca20de63f7468b7b34f559991a",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/debug.yml",
+   "name": "roles/lib/tasks/debug.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9c3e561be9b11320d55260c501eed3978ceab387e18915af14d61767dff21dcc",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_bsd_service_facts.yml",
+   "name": "roles/lib/tasks/al_bsd_service_facts.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5d8cc8604b02a8b7e3be72726f3af43f2f3d6ade12405da965be54d16d008c38",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_include_dir_vars.yml",
+   "name": "roles/lib/tasks/al_include_dir_vars.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f4e23cb8fc4cc3f554709b35c0986fef03dd4932605ab26b660e4720a470680e",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_runner_events.yml",
+   "name": "roles/lib/tasks/al_runner_events.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2b9ce701113475851ccccfc9eecd0329380b14cbb5b66510a5bb3a207cc98adb",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_pws_user_host.yml",
+   "name": "roles/lib/tasks/al_pws_user_host.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "68da3ea6124e171c451f74013bff398ba70a6c2389bba77cf83f7b8983bb97c7",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_bsd_ports_set_flavor.yml",
+   "name": "roles/lib/tasks/al_bsd_ports_set_flavor.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b41d82f82d7a752f99b02af096759834556856cfad01b411d5db69fb62f425b7",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_hosts_reachable.yml",
+   "name": "roles/lib/tasks/al_hosts_reachable.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "370e0e0a95f7f4ced54ef2149dff7ab98d776b679c139ca947ff525c9895788c",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_mdconfig.yml",
+   "name": "roles/lib/tasks/al_mdconfig.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "155e5de97afc6b937c5b4945c0bc57c221cb980504462c81408fe8857c94de5e",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/tasks/al_git_checkout.yml",
+   "name": "roles/lib/tasks/al_git_checkout.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2d0f1f93f23ec0f2c8b34f68fa205b745ed5cd5ce05cbec241762bd8c4dfad3c",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults",
+   "name": "roles/lib/defaults",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main",
+   "name": "roles/lib/defaults/main",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/common.yml",
+   "name": "roles/lib/defaults/main/common.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b903baf34e8737ae98097e3cd12a44ac910c2e17e44ecbcd22f9bd546f25becb",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/al_sanity_packages.yml",
+   "name": "roles/lib/defaults/main/al_sanity_packages.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4a1af1eb7ac1a1c3583377bf4d3de7683efc626686114162822bbbcbaead46a3",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/al_sanity_ansible_version.yml",
+   "name": "roles/lib/defaults/main/al_sanity_ansible_version.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7e08e6b2981d6997a054ef0898c2b3bfd45f61f28434c67d60fd4c8231ad4e7f",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/al_sanity_platform.yml",
+   "name": "roles/lib/defaults/main/al_sanity_platform.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "af08af5b32abb93d7d5187c695e464c47cc5d331071c922d3a8dd44d5f503c5e",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/al_pws.yml",
+   "name": "roles/lib/defaults/main/al_pws.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "143591074edcf0a9549fc134025718b7e20c29b1ea4c9785c0a90b5fbcbca899",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/defaults/main/al_include_confd.yml",
+   "name": "roles/lib/defaults/main/al_include_confd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "458eda63204572b5da8c120d059df3414ab7f3091c4155b45351b9894da24e2b",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/meta",
+   "name": "roles/lib/meta",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/meta/main.yml",
+   "name": "roles/lib/meta/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f6492cd723c8cd8a3e84bed9f27853dcfc2a5628e94a8b5c14a7e469365f51f3",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/LICENSE",
+   "name": "roles/lib/LICENSE",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3e14038ebe8a1161dd63ea08a10960d5070bb3d89f1ecafcd48620a847d4c610",
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/handlers",
+   "name": "roles/lib/handlers",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/lib_2_8_3/handlers/main.yml",
+   "name": "roles/lib/handlers/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f0e5788b6721e8195c260fb3d478178b102a628ed43974f46832d5ba8f8a72bd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6",
+   "name": "roles/postinstall",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/README.md",
+   "name": "roles/postinstall/README.md",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "75a3e58a30bdc22752512c349b9d794466619076b85e26f7bccc9b5fe0dc8f85",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.vars",
+   "name": "roles/postinstall/.configure.vars",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.vars/handlers_service.yml",
+   "name": "roles/postinstall/.configure.vars/handlers_service.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "25136d515b85d26fd34bb848f1a61290dd8e5ae4716cebd658c74a0bbbd22e07",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks",
+   "name": "roles/postinstall/.configure.tasks",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks/create_nfs_services.yml",
+   "name": "roles/postinstall/.configure.tasks/create_nfs_services.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "23f44fb6052acdd221b4f6d47afef5dcbd53fd5d2c1bc57cd5d037d7c1b16bbf",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks/create_handlers_main.yml",
+   "name": "roles/postinstall/.configure.tasks/create_handlers_main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "70524f781b0531e56ae478176a1777c803926839663d773adffc97affad80a45",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks/create_sanity_tags.yml",
+   "name": "roles/postinstall/.configure.tasks/create_sanity_tags.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a4484ccd2a55f818f1e7b2c0dde4250d1d9fc723cce6098982de0f528202d577",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks/create_handlers_service.yml",
+   "name": "roles/postinstall/.configure.tasks/create_handlers_service.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "aef499e4b7d71eac5898f1df71d50909ca0476f9b056ed1c5f1589431901ca00",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.tasks/create_nfsd_services.yml",
+   "name": "roles/postinstall/.configure.tasks/create_nfsd_services.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3462d01342b8d446e14273c249a767c8b1dff1ca624cae332404445699d152cb",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars",
+   "name": "roles/postinstall/vars",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples",
+   "name": "roles/postinstall/vars/samples",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/cron.yml.sample",
+   "name": "roles/postinstall/vars/samples/cron.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ad5622e40e6822384ac17a5c340a4aa3c7f2fe3734bf57257702d295a7321b62",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/ntp.yml.sample",
+   "name": "roles/postinstall/vars/samples/ntp.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a5a8402abbce3ead5ab9070d3b36a737305b5f310dfa9540a370e7f5c3502c6c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/freebsd-update.yml.sample",
+   "name": "roles/postinstall/vars/samples/freebsd-update.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "db991a23ca25371e44f719f279dcc4f89d323758449ed4db15519c26f1984353",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/make.yml.sample",
+   "name": "roles/postinstall/vars/samples/make.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6fe69460406e10256e83fd60827b24ef295d463191510171cb22b6dc3b11b10e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/resolvconf.yml.sample",
+   "name": "roles/postinstall/vars/samples/resolvconf.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4db87a0a25caf4533192a5bc98a338debf11dbdd299e40fa5f8c64600579cd21",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/syslogd.yml.sample",
+   "name": "roles/postinstall/vars/samples/syslogd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6f6599ff06152c62defae884de3e6affa9746bcf9d3fb2a3edb606fe3ed2f51b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/main.yml.sample",
+   "name": "roles/postinstall/vars/samples/main.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c141beb2274dd10bf2df1ca70293520cc3421937261b1db106f87078c4fa4be7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/aliases.yml.sample",
+   "name": "roles/postinstall/vars/samples/aliases.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "55eaa93c9ba8f8f3615a7d69c120331b03b3c141a571b53caffed121abd653b7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/swap.yml.sample",
+   "name": "roles/postinstall/vars/samples/swap.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1ac9eb6cb52c216705c05af5b05e2893a8593b1585a8a9d811f852235ba78efd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/wpasupplicant.yml.sample",
+   "name": "roles/postinstall/vars/samples/wpasupplicant.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "cf4b242749cf986d005daff6a635207b31d91ad6acae16b22418dc4eb2ecc263",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/nfsd.yml.sample",
+   "name": "roles/postinstall/vars/samples/nfsd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b258fed99074c579a598ed24463c41989d07cd9f130bc169505274ee4cdbc5d0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/mount-img.yml.sample",
+   "name": "roles/postinstall/vars/samples/mount-img.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/loader.yml.sample",
+   "name": "roles/postinstall/vars/samples/loader.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1a836f30454320e5cf5b2427cbea3872025d29ba6f7281ff1b81b54cc3fc15a5",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/qemu.yml.sample",
+   "name": "roles/postinstall/vars/samples/qemu.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "35dc684d464b5b8e64d876119cd29b2fc6690b5f0c114967635c2e98fd0cb428",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/sshd.yml.sample",
+   "name": "roles/postinstall/vars/samples/sshd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b9ce9f61832e25fd8e11bdf2f86a527d75934664341ce223478a580597fce233",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/dhclient.yml.sample",
+   "name": "roles/postinstall/vars/samples/dhclient.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "231d6fb1875801e21104f36ec3a52459b36e0cd7a3fc6f0d36939d2ae11479e9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/nfs.yml.sample",
+   "name": "roles/postinstall/vars/samples/nfs.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "262395ee9c62fb0b8748237075a22b32dfb15a5e13e4209acc0b3c8559c61f12",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/packages.yml.sample",
+   "name": "roles/postinstall/vars/samples/packages.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "15ea84cd4d96eca1bc16dd55aea44b42460c44c7d928cd8c9ac980c69d76ef9f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/syslog-ng.yml.sample",
+   "name": "roles/postinstall/vars/samples/syslog-ng.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "962894a75a9bd76d801d76ec423066e484473d9c6f2d756b4a2961209495bbb9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/users.yml.sample",
+   "name": "roles/postinstall/vars/samples/users.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f7f9a953a991381b4ed80a1f644e13a4e8e4f76110f09d06eeb83aa026122c15",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/mount-iso.yml.sample",
+   "name": "roles/postinstall/vars/samples/mount-iso.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "cab7034191700e0edb1a825e2bcf5799d686ec248f9d7a3351602b9ae9f558a6",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/passwords.yml.sample",
+   "name": "roles/postinstall/vars/samples/passwords.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e3cdc0ce0281511a9286f46f9fdfbc3386749716cff007b27b911253382db6b1",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/sudoers.yml.sample",
+   "name": "roles/postinstall/vars/samples/sudoers.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "aff59166470afe6ff69aebcef5e56b6a8084c7063fb2ff563d0624290e47aa7e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/inetd.yml.sample",
+   "name": "roles/postinstall/vars/samples/inetd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6c0ff974e3cdeb1c9560fafb11150dcb829c5cf8dd94df00d0ec69d120f91972",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/periodic.yml.sample",
+   "name": "roles/postinstall/vars/samples/periodic.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2f07af2fdb19d49fe6dfae7190d810892f60a7433e2eb689d40d8d8a6e2acaf3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/sysctl.yml.sample",
+   "name": "roles/postinstall/vars/samples/sysctl.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a0394090b477fcb5b469b0f53b512c7b304d819708dc1c64f211bfd198b355cc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/login.yml.sample",
+   "name": "roles/postinstall/vars/samples/login.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d252c028dae51444597450daf06974f19161e9237a827d63167fece447c7dfaa",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/authorized-key.yml.sample",
+   "name": "roles/postinstall/vars/samples/authorized-key.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e1b2a8efc29c08965f3b0d375e84f68b9cc928ae8e592c1bbcb5d5c6a54e9bdf",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/fstab.yml.sample",
+   "name": "roles/postinstall/vars/samples/fstab.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8407b4cb82567ba2e67f24694c4c6bf1f91e871da7dc9b673cd8f41d4490af81",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/hosts.yml.sample",
+   "name": "roles/postinstall/vars/samples/hosts.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d23c866cdf48024e78f997d0cf1dd22bf153963136ab828945b44269f14e3dda",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/linux.yml.sample",
+   "name": "roles/postinstall/vars/samples/linux.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "dc5b5619ce53cf7e744d224996d42635c7be5587d1d4b6643d55da963eb1a92b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/ssh.yml.sample",
+   "name": "roles/postinstall/vars/samples/ssh.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "836dfc7ba7760ce2a553fc4f88cd33a95a5fb2957f32513bd42df3f5ff9145ec",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/smartd.yml.sample",
+   "name": "roles/postinstall/vars/samples/smartd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5e8669868932aa3bc468e11b8be1aaa11639ead6da19fcfc72fb5df7aa4486a2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/copy.yml.sample",
+   "name": "roles/postinstall/vars/samples/copy.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1d94c69e29a700ff4c0ec5a4eab63d3fb5047252b5bdcf45caebc9c51d2374ae",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/snmpd.yml.sample",
+   "name": "roles/postinstall/vars/samples/snmpd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a447d93400a5c7c698c240ab08f862b8d699a80dd6895aa5b7f1676f63f18136",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/motd.yml.sample",
+   "name": "roles/postinstall/vars/samples/motd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4c118a20a33fd538054724bf75f14ee2da283522997269875658eff797de5f9e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/rcd.yml.sample",
+   "name": "roles/postinstall/vars/samples/rcd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9a01699bd1aa7e4b74011ef34162177c9f0e8fef17ac194e74a7eb13b38288bc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/ntpdate.yml.sample",
+   "name": "roles/postinstall/vars/samples/ntpdate.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "55a7b9d022ecbb8598c429ead39c70df4f35cd9f34f503ab892b6261ce95f594",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/procmail.yml.sample",
+   "name": "roles/postinstall/vars/samples/procmail.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0e7c4c4003591ace0084a3d6b51c72d954ec711e9c2a5ccb11f7b7b79a1e0404",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/vars/samples/devd.yml.sample",
+   "name": "roles/postinstall/vars/samples/devd.yml.sample",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4020d57f3cf886234488efbe7923a9c519329ff2a7b8d0c1f8c59c3d4c9595da",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/contrib",
+   "name": "roles/postinstall/contrib",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/contrib/copy-rsync.sh",
+   "name": "roles/postinstall/contrib/copy-rsync.sh",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e6d08ae85faa9cbc63c3d3c4d059095db33c62e005501635c90229782ae207f8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/files",
+   "name": "roles/postinstall/files",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/files/devd-action-manpic.sh",
+   "name": "roles/postinstall/files/devd-action-manpic.sh",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3cc4a0754dd63d2d4b2159894dfcd08a63d04828b154694db0113a243d68127f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/files/Makefile.default-versions",
+   "name": "roles/postinstall/files/Makefile.default-versions",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b585c3c9f02d523b3bc3db6c06f5f25b6433e81a75d386902983696f6404f880",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.readthedocs.yaml",
+   "name": "roles/postinstall/.readthedocs.yaml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "21930dabb090780cc62f5c8455377c4d9e09979806a1cce7a057def8de26b209",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks",
+   "name": "roles/postinstall/tasks",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/authorized-key.yml",
+   "name": "roles/postinstall/tasks/authorized-key.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "877f27a7c4189962cca8679429fe7ac634b66173442389dfad08430a99755eb9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/timezone.yml",
+   "name": "roles/postinstall/tasks/timezone.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b7e422138ab83896c7f3cd0e83f2c1ed6fe0996f5c7827b67b0cd9a87ec82ad7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/gitserver.yml",
+   "name": "roles/postinstall/tasks/gitserver.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c8093fdbdc25d0d73e41230579ccbbb99484fa00478b26eb915e11f1090e55cd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/cloud-providers",
+   "name": "roles/postinstall/tasks/cloud-providers",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/cloud-providers/digitalocean.yml",
+   "name": "roles/postinstall/tasks/cloud-providers/digitalocean.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4438291eeba64ae1b0f3c68481853f341aa80d766b64082c264b5d2be7811dcd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/libmap.yml",
+   "name": "roles/postinstall/tasks/libmap.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2107ae5190a85119da2c527ff23063fdd967f5445627ccd5748383d671229995",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/loader.yml",
+   "name": "roles/postinstall/tasks/loader.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b50338ed4d2b777575f0e5f85c9a679909803a3005729dc80217a846355bae04",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/packages.yml",
+   "name": "roles/postinstall/tasks/packages.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "95eea9c54dc2cfd1b48f3354d02076cd810a8c8f1cc70ec812a7cd1f520d71dc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/sanity.yml",
+   "name": "roles/postinstall/tasks/sanity.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f44400da3aedf947eabb650d4abf50635e064a554e70ce77d6603117a2a5741b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/cloud-providers.yml",
+   "name": "roles/postinstall/tasks/cloud-providers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b5133531e832b30595c164715262321bbd1b4e622708866e72f377454768a8bf",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/resolvconf.yml",
+   "name": "roles/postinstall/tasks/resolvconf.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "dd321d9d5dd51760deb6045a3c4f62e6f4ceaaab811cfcc7c5ed66cd0a9b1a00",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/hosts.yml",
+   "name": "roles/postinstall/tasks/hosts.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7ca0e8e5a43a41cf1e49032b7572b50caa123daafedf444f12166f331cbcadac",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/motd.yml",
+   "name": "roles/postinstall/tasks/motd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e498c4b67f528ac0f4ce8ae7c0fc2a78c09aa02c7b78e8e384765d7957e8cd8b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/inetd.yml",
+   "name": "roles/postinstall/tasks/inetd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9f0e20fa5841e8c00e895fdc5a52321e19058fa27acf1853cd5b4f3ff4b26b26",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/groupwrappers.yml",
+   "name": "roles/postinstall/tasks/groupwrappers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e591ff208daeeb8fdb8e436fe8c18cbe2d85b9283a0136482c32b50bdcb72d65",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/sudoers.yml",
+   "name": "roles/postinstall/tasks/sudoers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c121b0e2d0b099c49ac1c7d1bb6b98bad8063b965a6177707cf79f5cff884954",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy.yml",
+   "name": "roles/postinstall/tasks/copy.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e750b841c22a488ca81e5ba2203da4e794328eb5a9fa8df8196c81b046cc2bb6",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/aliases.yml",
+   "name": "roles/postinstall/tasks/aliases.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "de0f90b6640e5dc60b6ac53646f26d35a100aab45ac8f8f7cb76522e82309f88",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/linux.yml",
+   "name": "roles/postinstall/tasks/linux.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8e8cd0169456081dcbf44ac01bf9652f587b099c4bf451d21f85eedc7b76421a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn",
+   "name": "roles/postinstall/tasks/fn",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn/rcconf-item.yml",
+   "name": "roles/postinstall/tasks/fn/rcconf-item.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9036598831721c7a4f8f3c756d6e6223defe1bc632a216796e9c91d184ab80d3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn/rcconf.yml",
+   "name": "roles/postinstall/tasks/fn/rcconf.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0e450accbb606a3a44b7f6eedf61ee794e45d707fc392ff77f3d6fd74f27147d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn/mdconfig-detach-disk.yml",
+   "name": "roles/postinstall/tasks/fn/mdconfig-detach-disk.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "009fa005b7be5650e2b168f30aae53cac7c60c6c680690d2740740950e546706",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn/mdconfig-attach-disk.yml",
+   "name": "roles/postinstall/tasks/fn/mdconfig-attach-disk.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7933ca078170c900c063d0710fa7ed66a335151747496984df82791a56834b36",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fn/cron-rename-entry.yml",
+   "name": "roles/postinstall/tasks/fn/cron-rename-entry.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "cdfce921507ac53e0c476f1ad25a13a7c05fbab60c6c3bb671ff32e8e6163c45",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/procmail.yml",
+   "name": "roles/postinstall/tasks/procmail.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "23dba0b06f403a420ce2c4e62423fa8fe69a76b28732365b11a86f7785945ad3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/mount-img.yml",
+   "name": "roles/postinstall/tasks/mount-img.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "dcb4b6ec39828d1895783688b1d11b1c32b0f2f42c403c20acfcac14ea9a73ed",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/nfsd.yml",
+   "name": "roles/postinstall/tasks/nfsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b80c1423002ae487d7d6c8ffebbd3769674c6f1f8eb4171ca5888f84496a7d88",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/make.yml",
+   "name": "roles/postinstall/tasks/make.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5408d001cd5d922943a6d8cfae7e30520afb9c19b03bc53b59d08b93a2fee383",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/ssh.yml",
+   "name": "roles/postinstall/tasks/ssh.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "45a2d1425f97bd18cb7964fb28c6cd90f8fc93fafdb4b4ef6bb01f7163afef77",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/main.yml",
+   "name": "roles/postinstall/tasks/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fce6092fc915f613a92a37be8f40bfa0dfd10bec121ee99efe0bdde8426e8eb7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/hostname.yml",
+   "name": "roles/postinstall/tasks/hostname.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d6adcf767c97cde2864b847f576e0126e11bc9eb2d2a93432a0e3d210a3ced16",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/ntp.yml",
+   "name": "roles/postinstall/tasks/ntp.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "770563694fd4cf720d4d6cc8c4b62795f8c12441482a2d79e7a52ebec0d51003",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/freebsd-update.yml",
+   "name": "roles/postinstall/tasks/freebsd-update.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fa7b884dbd8a985d8ce2ca955c26953bf3b32b65dd47feb66fe7ab543ac90c2d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/tmpmfs.yml",
+   "name": "roles/postinstall/tasks/tmpmfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3a08e175f5ea9ed5c829c05d9806c5c109bc132ec32ca22af489ee888e79eaf3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/sysctl.yml",
+   "name": "roles/postinstall/tasks/sysctl.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "495f3a725bb24807c32bb2e3161812c440f0545aa23d4e86e90d8a902770490b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/users.yml",
+   "name": "roles/postinstall/tasks/users.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "bc5ccbca5d6d495711f984d7bbd09efb0bdc5358086f72254ff86c49f65ffa10",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/dhclient.yml",
+   "name": "roles/postinstall/tasks/dhclient.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c29b59b74b54b78191393d4529d85da29cd6c9646101e4c50f98f17f122923c3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/syslogd.yml",
+   "name": "roles/postinstall/tasks/syslogd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "cc1740087227951c52bb9f3479dfb3ba23d4062e8ddc08782483fde2b8d87082",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/debug.yml",
+   "name": "roles/postinstall/tasks/debug.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c261e54a05ea536463b9dcab619ee21348fc47efc9af634241159c3df08a4d3c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/fstab.yml",
+   "name": "roles/postinstall/tasks/fstab.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "14444858cf31abe4c8f745f69129b696cf578fc8f7fc6af35e6a1abc6a268211",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/cron.yml",
+   "name": "roles/postinstall/tasks/cron.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c700094995d953ff86083e2a219c6da45b79aa5b613d7a73c1ca224daa82b38e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/wpasupplicant.yml",
+   "name": "roles/postinstall/tasks/wpasupplicant.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8948a8d1e025af1fbd15883476d0db9a55e17d67d36b180d85d433354e30fb8e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/hostapd.yml",
+   "name": "roles/postinstall/tasks/hostapd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f94e5f041dde42c007dc498ad6dbae1cf7f8a2491aae504ed591a884c677e18a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/mount-iso.yml",
+   "name": "roles/postinstall/tasks/mount-iso.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "badc9547b6269fe3bd5497bebce71a8550a781b70aaad8d50d012637780890ba",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/snmpd.yml",
+   "name": "roles/postinstall/tasks/snmpd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e4c05fb7aae5e9c22c17a0e653a94fcb0284e17fce9dfd88f7232219749418fd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/periodic.yml",
+   "name": "roles/postinstall/tasks/periodic.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f1ba88b47d7d8748a2b4a44616b6839f84630f4c5a8c57f71c30f757d064db3b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/passwords.yml",
+   "name": "roles/postinstall/tasks/passwords.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4d0dc0a7bcb8399b4bb16400c2356f00627647333ddfc25597e0f52c8eac7b65",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/login.yml",
+   "name": "roles/postinstall/tasks/login.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b3d6fadc07c43a31053026dca6e6467f875b01aa002fbcb32924c18840f13c7c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/sshd.yml",
+   "name": "roles/postinstall/tasks/sshd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8060f05144f89b630e44247b851f082488c1047c6df3f3d024f52c85272facb2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/ntpdate.yml",
+   "name": "roles/postinstall/tasks/ntpdate.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9bebb0e3a45dbdc44636c935b960d2e8855e94f67e2dedb6d573c6d19977278e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/qemu.yml",
+   "name": "roles/postinstall/tasks/qemu.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "67f36b992f4a2d394ab4342346345eef7ca7ee462f0745f53f9226506d436654",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/nfs.yml",
+   "name": "roles/postinstall/tasks/nfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e0ccab9b7f9aa3e813d912c2dbfc541432ad1ab09bec6a72dd9c8f85f9e9d38a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/syslog-ng.yml",
+   "name": "roles/postinstall/tasks/syslog-ng.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e87b5c796e4011f851a25c56ad6aba53df6e5ddb95b5e741a729fdeaaae3efcc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/devfs.yml",
+   "name": "roles/postinstall/tasks/devfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a4299cbbf7432ca86bc70b93aa17e723681afb5cec7a54b781adfc13323346b1",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy",
+   "name": "roles/postinstall/tasks/copy",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy/sync-default.yml",
+   "name": "roles/postinstall/tasks/copy/sync-default.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ec236ea29189e4be54182f4ac79d1a792283c70a87ed7d47b29a9b6e9dde3d8d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy/unarch-optional.yml",
+   "name": "roles/postinstall/tasks/copy/unarch-optional.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c171b708d182891383b1f99a377321cbb15ea1015a7cea60b9accfeb2bdd40dc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy/unarch-default.yml",
+   "name": "roles/postinstall/tasks/copy/unarch-default.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "993ffd11aaa59007e02ff275ced4ff08cceb94f938fc5ffd3edc1a9d0a6f9baf",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/copy/sync-optional.yml",
+   "name": "roles/postinstall/tasks/copy/sync-optional.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "38f8beaf0f8c832a65ffb2e884e8131dce4b79db5d1c3574d8044644ebbe7844",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/vars.yml",
+   "name": "roles/postinstall/tasks/vars.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d53f798e46ddd4ac4216b6a80580a695c61fbc407baca8ea7a09b3189102d716",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/apcupsd.yml",
+   "name": "roles/postinstall/tasks/apcupsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f94830795aac282a22a668b620d7bc8ddfd7fd145751d18e32d411b268a89557",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/groups.yml",
+   "name": "roles/postinstall/tasks/groups.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b0cacedea48f7453981b844e689e2ffbbfb9fb9900d9855bcd0635dafb9cbcf9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/smartd.yml",
+   "name": "roles/postinstall/tasks/smartd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2433cf3b56a9dfb281acfe7249a44111e5d22a7f8006ec04fe41f140c6ca7857",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/devd.yml",
+   "name": "roles/postinstall/tasks/devd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "850ae4e8f6ed6cb984a00ab908c42cf1fccdfaa1753cb7b028f03cf438fb9ce9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/rcd.yml",
+   "name": "roles/postinstall/tasks/rcd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "059c20d36083e4031063451ac7d918f64cddb9a5ac1d011b6680c9e81e9d9f8b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/packages-install.yml",
+   "name": "roles/postinstall/tasks/packages-install.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "efedee1cd4a0a0277d64a641c8ffdfff7bea54c166e6696b95e8fcccfc465d6a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/tasks/swap.yml",
+   "name": "roles/postinstall/tasks/swap.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "646504b96f395a4a3189b134cae56f727e0e33d473810ddde58c96771bbf5870",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults",
+   "name": "roles/postinstall/defaults",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main",
+   "name": "roles/postinstall/defaults/main",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/authorized-key.yml",
+   "name": "roles/postinstall/defaults/main/authorized-key.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4259bf12b3e332ee8d1c4c668ed13c86a9cbe55689c9cebb182c994fb935d699",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/timezone.yml",
+   "name": "roles/postinstall/defaults/main/timezone.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "641f295a4c58aa5ae98167e3183052282fa0f9e35731d00c1d123bc026749814",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/gitserver.yml",
+   "name": "roles/postinstall/defaults/main/gitserver.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "830acd4f6490c7cb6d26e40b09996c6714480a22d836a50208acf42d9c5689dc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/gpg.yml",
+   "name": "roles/postinstall/defaults/main/gpg.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2319112a3c68b1affb4b3b4eb10590ce873a25dfece7471ffa50843721034193",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/libmap.yml",
+   "name": "roles/postinstall/defaults/main/libmap.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7098d71c0182e58613f7eb9659812ba9e27f0b936db00930a160b4920405a710",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/pkgdict_amd64.yml",
+   "name": "roles/postinstall/defaults/main/pkgdict_amd64.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5b873ee05e8c1348e7ac9e69271354bde6a0abb99350bdacd391f5b350f4b3c7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/loader.yml",
+   "name": "roles/postinstall/defaults/main/loader.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "78d5e69c0310756efdf30a7092b4bad484388beb7ed7c6cca43caec4d2b0d885",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/rcconfd.yml",
+   "name": "roles/postinstall/defaults/main/rcconfd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1b232e19c9b4a40491b4b98ea943b496cd94bb8cb17dfaa2888becffc586b2bd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/packages.yml",
+   "name": "roles/postinstall/defaults/main/packages.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ed99e6d30f3b682ad88318d6309f90da8a4a0f975500129aa9c496eab158ff05",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/sanity.yml",
+   "name": "roles/postinstall/defaults/main/sanity.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "320ebe3699911724e86f3f73426696bf92592bbc98bd62afb7dbc0d175a68752",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/cloud-providers.yml",
+   "name": "roles/postinstall/defaults/main/cloud-providers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6d2b4863771eb6346c3ebefa0cfbcb86d4370fb39f57f34c954206a763c4dc78",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/resolvconf.yml",
+   "name": "roles/postinstall/defaults/main/resolvconf.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5b25f2cf469ab09a95caabc3dcd78e2c515bfe02033e52626fc6de6e2f41a76d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/hosts.yml",
+   "name": "roles/postinstall/defaults/main/hosts.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "23cbc1139e468fcc02603c475aa8f1c7a2769657418a4f78a22ba26d4bfe11be",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/motd.yml",
+   "name": "roles/postinstall/defaults/main/motd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "817da4df09a2aa1a5477d89cafb97911b2b59176d8227689dcbca849e9fc4fd2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/inetd.yml",
+   "name": "roles/postinstall/defaults/main/inetd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b033ca417f6f15b6881eade31466c599235aa034b94b329cf1519040812bf951",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/groupwrappers.yml",
+   "name": "roles/postinstall/defaults/main/groupwrappers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7a08dd2351ba49e7ed5cb7e83e2127d1cd159adfd169891d2a4aa6c7cfe669b0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/sudoers.yml",
+   "name": "roles/postinstall/defaults/main/sudoers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a3e4a68ef634b03a68930cd7ce9e5542040206195ba692d9b51487bdf0b12f0c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/copy.yml",
+   "name": "roles/postinstall/defaults/main/copy.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "98145a9ccf8c556a89864752bde81fb2ce84c2b2715cba55d662a281db239616",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/aliases.yml",
+   "name": "roles/postinstall/defaults/main/aliases.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "58db75f8e58f4b872d5cec06ec0112c85bf246a5235ad73f9306251c028791ce",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/linux.yml",
+   "name": "roles/postinstall/defaults/main/linux.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1328bbbad74a11d011c53cfc80bc3d181368fe407ba2ab4de0031783dd3d07c6",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/procmail.yml",
+   "name": "roles/postinstall/defaults/main/procmail.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9f3392dd2ac85c457a79a627514796fbb3a08243115ede33e19d44046ed5bdfa",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/mount-img.yml",
+   "name": "roles/postinstall/defaults/main/mount-img.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f4c6209f887495970bc1b955a1fe7c6d823a528f445b9955377a351cd641daec",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/nfsd.yml",
+   "name": "roles/postinstall/defaults/main/nfsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f5c442ff863efcac9cf4c293a09c55423e856d2d528716a9fc565312e44d80fe",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/make.yml",
+   "name": "roles/postinstall/defaults/main/make.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d31d21ab274e7fe35931ca99c5038673eba7dedf33deaf3dccde904c5c22d327",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/pkgdict_arm64.yml",
+   "name": "roles/postinstall/defaults/main/pkgdict_arm64.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "39967718505259e617372da491bfd139418ffa04af80b75546d86580333ca7f8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/ssh.yml",
+   "name": "roles/postinstall/defaults/main/ssh.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d54cff4b58096d770d4cd96e8ad2e4c1a53b7ea41491eaf65f5d8c2c21d9696d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/main.yml",
+   "name": "roles/postinstall/defaults/main/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
-   "chksum_sha256": "fcfdcab97d8eaef780d2e0217e6b541312eb282d728fbbb816639c948e8bd277",
+   "chksum_sha256": "212dcb5e093594afdc0dcf6500ff30fce9a69954a862a4b8a48fb6497c3de425",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/rcconf.yml",
+   "name": "roles/postinstall/defaults/main/rcconf.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6d64caef01f44f77e18a91efbeb96465b96583f6daba3de56a8ab308765d325a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/hostname.yml",
+   "name": "roles/postinstall/defaults/main/hostname.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fffa9a743fe734529d586022cd91b1069844d2a3b16daf077449ff669616fe37",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/ntp.yml",
+   "name": "roles/postinstall/defaults/main/ntp.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "47417304643e184d31331fe93253c40779aee149cb65b8e7724d6d37b57dc58d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/freebsd-update.yml",
+   "name": "roles/postinstall/defaults/main/freebsd-update.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3d12913686bacabc424a9e4061df99286754d2b80f951788071a623eb1595ff5",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/tmpmfs.yml",
+   "name": "roles/postinstall/defaults/main/tmpmfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ed950eff2c2c7222f1b44b0ba84b37110edccbc53f6d39751477e7a2002878c4",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/sysctl.yml",
+   "name": "roles/postinstall/defaults/main/sysctl.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8172785cf3734d5f61f8aa3832e9e2fc63e2c976d33e79cd8bbcf3ae05ac177c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/users.yml",
+   "name": "roles/postinstall/defaults/main/users.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fcb482145e226cd4107d2f9de10602d2750f0fa51f3c8556d24d3dd6f48ec6d9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/dhclient.yml",
+   "name": "roles/postinstall/defaults/main/dhclient.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "50f85d796902fd6a3780f126f4160bc0ddf8ab43e047b887e2a76d3a4af948b7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/syslogd.yml",
+   "name": "roles/postinstall/defaults/main/syslogd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "38a88b8d7de7ef4935e2285ba3abd845a51c941eed45c7005dc8d11db30c1fc6",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/fstab.yml",
+   "name": "roles/postinstall/defaults/main/fstab.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b932b1e13617b279678b0a51cce8c869a686ea012aaac89a4616a1efb0bcb03e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/cron.yml",
+   "name": "roles/postinstall/defaults/main/cron.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "60bb0297bf953f0bc48fa5ef024d49c9f1efb8899cd5b1e80e5386cd9f964bdd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/wpasupplicant.yml",
+   "name": "roles/postinstall/defaults/main/wpasupplicant.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "86b3adf13542948bcfffd9d1a1d3963710301121983bf66265d817e96063f4a3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/hostapd.yml",
+   "name": "roles/postinstall/defaults/main/hostapd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7be31c648cd92a5be4b9578b68fefb143f4952ec576835af0c65a18e41c1b6a9",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/mount-iso.yml",
+   "name": "roles/postinstall/defaults/main/mount-iso.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "80bf9d462cf901f1fb0b0db4006c410667f5b9632a79e2ed3674e972e5235a2d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/pkgdict_versions.yml",
+   "name": "roles/postinstall/defaults/main/pkgdict_versions.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b02beb79b235a8e609601a9479777a4031f9a6469f5e02f2a392dd67201526db",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/pkgdict_arm.yml",
+   "name": "roles/postinstall/defaults/main/pkgdict_arm.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "bf92c17cd1fcd2aafe9f3d1d4583b2a511fb0279a36347a070d3aaa6a0dd6de7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/snmpd.yml",
+   "name": "roles/postinstall/defaults/main/snmpd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "91da175dd2e4ccd453cdbf8cfb21d8fcd3d758ea6e0ff98cdced6646e0808d5c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/nfs_services.yml",
+   "name": "roles/postinstall/defaults/main/nfs_services.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0b839941edfd5f0c75a7a7af65e123ab457babf179774273dce5d87c8e9c7abe",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/periodic.yml",
+   "name": "roles/postinstall/defaults/main/periodic.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "9fb4814be3b3a436eea845638589077a92eac0d6f6b0028c7175b1c9d4f91aa8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/pkgdict_i386.yml",
+   "name": "roles/postinstall/defaults/main/pkgdict_i386.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "62ec8abc2536adfd7d5e78e75eb1fd55c9cb386d6f568abe6a237d68c41496c7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/passwords.yml",
+   "name": "roles/postinstall/defaults/main/passwords.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6a709ce475726b7dbaa9b2063cff16f73e0d3999435ddea5cc34e1f35f295254",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/login.yml",
+   "name": "roles/postinstall/defaults/main/login.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "efed27a26e36906034c57c444bcff6f7582d04896fbf3ec6ac6725971f1ff9ba",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/sshd.yml",
+   "name": "roles/postinstall/defaults/main/sshd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "346e0ae97b067e45345b1aa7ebfbb9365f5bf1cde6ab9d7086259d19cf7a1fef",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/ntpdate.yml",
+   "name": "roles/postinstall/defaults/main/ntpdate.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2dbd2a8c3f94d6a8d37c9872984688557ff4c2e527f417f7bf97f4676bef39a0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/qemu.yml",
+   "name": "roles/postinstall/defaults/main/qemu.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "55a4a99f92f14406c6ebf9d05ddf24904860724aac584f71de1eb7b00c08a14b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/nfs.yml",
+   "name": "roles/postinstall/defaults/main/nfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ec2411812d6eee4736e9bedf2602f5053ee6166a530e082a66fefd76067807e0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/syslog-ng.yml",
+   "name": "roles/postinstall/defaults/main/syslog-ng.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a6e54ea177dd9c0ac8a9c5ec4f11b72f4d82d99bf6bb636e79618dd3e19cfc1b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/devfs.yml",
+   "name": "roles/postinstall/defaults/main/devfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "076ef673ca40f69d253cfde27686e290bba41990f7e0bfd6c80801ef58ad7adc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/vars.yml",
+   "name": "roles/postinstall/defaults/main/vars.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "608b110e9eee472656b8f54c6ce37fd253d91880e54a6561ea12cb5cfb8686b2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/apcupsd.yml",
+   "name": "roles/postinstall/defaults/main/apcupsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ffd35c54de472cad34af5b2910762f0aa378864c0adf4e709ac7a5fe41552135",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/groups.yml",
+   "name": "roles/postinstall/defaults/main/groups.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6b4c96e40adecf1a44ff2b4127964928f8e4a766ee127fd1294db34a27a9a0fd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/smartd.yml",
+   "name": "roles/postinstall/defaults/main/smartd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7598cff97817307d56dae32c55b517867435ccca4023ac22fba8e485663b89ef",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/nfsd_services.yml",
+   "name": "roles/postinstall/defaults/main/nfsd_services.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "19e53fa3b7efb051fdfd3c05d13711721b473b26c35c6a4bde0760f792f4bfec",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/devd.yml",
+   "name": "roles/postinstall/defaults/main/devd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f2aa12006ee03d6b935768ac3f08c04304a3145f2a7131ddbab89c14bf61007c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/handlers.yml",
+   "name": "roles/postinstall/defaults/main/handlers.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "2e65f3bb42c5b1eca41182164e7a5db15925b89ece6394bbbaaad093e3e62138",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/sanity_tags.yml",
+   "name": "roles/postinstall/defaults/main/sanity_tags.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "6ba2cd94e2ddd79c471e83f096f5a1be2daddf4b15639d9fafcdd8ee5ab672fc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/rcd.yml",
+   "name": "roles/postinstall/defaults/main/rcd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "70f1e3cf5da499e3ef74386d2a641e5e372570eff6ebcd9f8a1044076098b28b",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/digitalocean.yml",
+   "name": "roles/postinstall/defaults/main/digitalocean.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d1f45ee89f388abb52f014cfafca34334be35497b89ea025d7ae6435938faaf1",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/defaults/main/swap.yml",
+   "name": "roles/postinstall/defaults/main/swap.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d291de2476e1051384623b70a18fb91f595da8080ef82edf01f3e1522c2d49c0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/meta",
+   "name": "roles/postinstall/meta",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/meta/main.yml",
+   "name": "roles/postinstall/meta/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fc6785022fadeac063217ce537a026021caa07ab1f9042e9b0fd45b4d08a67e3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates",
+   "name": "roles/postinstall/templates",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/wpa_supplicant.conf-v2.j2",
+   "name": "roles/postinstall/templates/wpa_supplicant.conf-v2.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "816eaa0357f34fcf89c614e5b77bd08aa8bd9587d2e4cb7f01a049abe26a1a6d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/groupadd.j2",
+   "name": "roles/postinstall/templates/groupadd.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4f05b95a54656eb35c8c63e23897d6adf39d2c574b228548f6aab312da3176d5",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/hosts-aliases-list.j2",
+   "name": "roles/postinstall/templates/hosts-aliases-list.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "61b0d534fd4bef05233a5503cec192783701ea94f625af7d0b4a35d6ec74c906",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/loader.conf2.j2",
+   "name": "roles/postinstall/templates/loader.conf2.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ab5c103a369192a8c646309e6954d12917ad5c7d9c1f51b9ebbf35d85053f1f7",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog-ng.conf.client.j2",
+   "name": "roles/postinstall/templates/syslog-ng.conf.client.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "40f774623f160aff75149c9204a7bfe498439b5f63e95a217f95a57a863d8669",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog-ng.conf.j2",
+   "name": "roles/postinstall/templates/syslog-ng.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8f95de1babfcb55186b024a20c3147ad5fa85cc2339e77a2713c3e620158157d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog.conf.client.j2",
+   "name": "roles/postinstall/templates/syslog.conf.client.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8ae676b9ea782d1e5d61944519e77e5bb1364f599a9bed4198564e1727f5b537",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-get-fingerprint.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-get-fingerprint.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "7cad49a6d55a829ef040264a3b4e2fed93e429ee939dbefbfd655d393791e94a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/hosts.allow-01.j2",
+   "name": "roles/postinstall/templates/hosts.allow-01.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "713992ae6f6ccf7ae517e300667700037966ddffc01e37578c531ab30d9cbc3c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/hosts.allow-02.j2",
+   "name": "roles/postinstall/templates/hosts.allow-02.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "44c26f7b4a8b33783ed8485eddd3f667cf8094c860160b97c210aa6243855934",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/groupdel.j2",
+   "name": "roles/postinstall/templates/groupdel.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a2ae12a4333f0a113eb5f40debce3a91ca91602d1943517935447bd9193903da",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/ssh_config.j2",
+   "name": "roles/postinstall/templates/ssh_config.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ac26984a55857fa38eadcf14a0065a88a42fde02b868a641617dc88908bc0559",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc.j2",
+   "name": "roles/postinstall/templates/procmailrc.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c36fad549f590c187519653263fc01535dd5134070d70d9461e303ef0ff728c8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog.conf.j2",
+   "name": "roles/postinstall/templates/syslog.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "dbf7d561f3490b4eb31632360af892dc5dcb8a5f0cb5f8786d554fdbf7c28401",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-capability.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-capability.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d5b1e91467057ed85b5286540a4314e2bb849b4f3e6a652855f4fa721894b7c5",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/newsyslog.conf.j2",
+   "name": "roles/postinstall/templates/newsyslog.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3a8139276117d0144e35a5f0f23900f868a55137ea790619c0899010758032c8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog-ng.conf.sample.j2",
+   "name": "roles/postinstall/templates/syslog-ng.conf.sample.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "556e5941acb036be2603fb403995791b4a72a4f23c53adb4a640e7e4d4d73633",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-get-message.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-get-message.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8dad842e0633acc0e59ca761554c6ab8813bdac887769f115b3c6fbb3d46bb31",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-duplicates.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-duplicates.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d1860994bda08d4aebbaad795a9e48b000b86f8d526da299c56a53dd69a54431",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/wpa_supplicant.conf.j2",
+   "name": "roles/postinstall/templates/wpa_supplicant.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "10e6e62d03819c40d0eeb4787042a4fafaa1ede5b230f8f4db6ebc54ca041f71",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/loader.conf.j2",
+   "name": "roles/postinstall/templates/loader.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "36f138a2ec85b6845670a96fbcebb5cbef0f0c07e359d5d1544ae52e8d46e211",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/hostapd.conf.j2",
+   "name": "roles/postinstall/templates/hostapd.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e8013e1df1b66d67f6d2c5c0308e154c9e31a0fbac4221bf04427bbfc5579dbf",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/login_conf.j2",
+   "name": "roles/postinstall/templates/login_conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "513eb9f6904564d2dd16b5669c14248d630efbee29fe14f63e20f0a4300fd836",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/make.conf.j2",
+   "name": "roles/postinstall/templates/make.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "87c6fb2c1888bee811a9c9c903bb7e7f5d02358c158f898a0fd77756a788cfaa",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-get-fingerprints.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-get-fingerprints.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f1fe06e2445eec86218d47611ae52e30b0f7329fafcf241736f340734883db1c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/freebsd-update.conf2.j2",
+   "name": "roles/postinstall/templates/freebsd-update.conf2.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "5e004f8e3ce9dccf79e89b644ca271414508036e2b4c4d572b8fa07b7643bb9d",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/motd.j2",
+   "name": "roles/postinstall/templates/motd.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0e5ca37475660d81f74c54d21b11cd836ac5c3c8319f3e3f98f318a1d71e275c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/freebsd-update.conf.j2",
+   "name": "roles/postinstall/templates/freebsd-update.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "eee25b54a08fb939e35e389f296a9b2943578ebcf25c241dc97f84c7b97d7736",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/login.conf.j2",
+   "name": "roles/postinstall/templates/login.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "90e40e9bef10b2e9cb09628f4aab0c7b4ed30d0a917e543b93cec85395597764",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/apcupsd.conf.j2",
+   "name": "roles/postinstall/templates/apcupsd.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "f7e3d68647eec9f4580fce2bf9623ef0f9f1c173439815f62be9317b2e373113",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/ntp.conf.j2",
+   "name": "roles/postinstall/templates/ntp.conf.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3bf10cccf1bf190a165e0ec3359de405f73f21c2087707ea2ddc3034d0d34283",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/hosts.j2",
+   "name": "roles/postinstall/templates/hosts.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "93ae983ba74a830974e3bfd5688003bb44e2d42399aeed75963795851beb2087",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/groupmod.j2",
+   "name": "roles/postinstall/templates/groupmod.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c9f80df61d9dbaccad7b6a4e98a64e3cb22d1c566b580aed3112ac93e3bd4835",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/procmailrc-includerc-get-certificate.j2",
+   "name": "roles/postinstall/templates/procmailrc-includerc-get-certificate.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fe6ae38a16837f7e0483d989396d31478e5e74cae08c4c2b9816175619a76f6f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/syslog-ng.conf.server.j2",
+   "name": "roles/postinstall/templates/syslog-ng.conf.server.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a4459e15f33a89e9aa325059691af80df8765f0df7c10ae36947ee86d371e9f2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/templates/exports.j2",
+   "name": "roles/postinstall/templates/exports.j2",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "81b909f51e9ecf443ca612a2acfa8cdeccb381d4d2cd9a9f57c278b5780c372f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/LICENSE",
+   "name": "roles/postinstall/LICENSE",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "3e7f771c5225f56bf3cff3265197bbd3535b12372470e0f9ec31cdcf8bca0c29",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/.configure.yml",
+   "name": "roles/postinstall/.configure.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "0a8da64b7df4a1a936dc006d40b38da05e5b2dfdf419d68e273653d6594ba96e",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers",
+   "name": "roles/postinstall/handlers",
    "ftype": "dir",
    "chksum_type": null,
    "chksum_sha256": null,
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/adjkerntz.yml",
+   "name": "roles/postinstall/handlers/adjkerntz.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e09c682e354ef8676ac4b813ac314ec898684d8d31f3c3f7d61918d3f96105ca",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/newsyslog.yml",
+   "name": "roles/postinstall/handlers/newsyslog.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d440a1210ce59225d030f132f742824bef9af0435cb35581c8b8d33826d411d3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/ntpd.yml",
+   "name": "roles/postinstall/handlers/ntpd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "37e931cd522c323157c670993dd90a575938526aa371bd7e95926bd4dec6f410",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/qemu_user_static.yml",
+   "name": "roles/postinstall/handlers/qemu_user_static.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "101e70034f4d07ea5f9fbcb39f6d2a125c3e2c2a5a1d0bcf50fa1c94458cb6a8",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/resolvconf.yml",
+   "name": "roles/postinstall/handlers/resolvconf.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e40b3877775f474d2f982928ba5cf7dcb53cb687ce30b12b1e48a7dfda81e1d2",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/inetd.yml",
+   "name": "roles/postinstall/handlers/inetd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "1c9efec2298159d5ec9a9079fa55be8792df17256e07f1a68fe4d5018d975534",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/nfsclient.yml",
+   "name": "roles/postinstall/handlers/nfsclient.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "bf80a0ff335c5bc8149b292fdfa25246feb02a0479b536e1823e2c643737e048",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/statd.yml",
+   "name": "roles/postinstall/handlers/statd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "4654b95c22d72e8b20872f3809d7850185968b9a32ce93ceb4e3cdff2dc1e56a",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/lockd.yml",
+   "name": "roles/postinstall/handlers/lockd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "22535c145ecb4464ccbd5c36e41474e8b18008765043741cea05e28bb4f09979",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/messages.yml",
+   "name": "roles/postinstall/handlers/messages.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "b9e0cd979145ddb68f8d0ac3f889248e5bd08331cecadbb99fb53542a95a0362",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/mountd.yml",
+   "name": "roles/postinstall/handlers/mountd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "04041bcdcb4ce8ae6ded2e623ea671f28a77904e5f58f8171563b9295b57ae83",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/nfsd.yml",
+   "name": "roles/postinstall/handlers/nfsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "978ef2663e06485605bd1e20442aed6089871722c53ecbc98a4e4d2342bee6ba",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/main.yml",
+   "name": "roles/postinstall/handlers/main.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "64346cdd9d4bed94616a552e5984ace31d555e71d8c2498205aac1aeb29ce897",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/hostname.yml",
+   "name": "roles/postinstall/handlers/hostname.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "60b7bfc3619ff6536e7bfcf1e30e8a16e00e73cedd20010666d72848ec9ff620",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/sysctl.yml",
+   "name": "roles/postinstall/handlers/sysctl.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8cc7332225cec2162ee21f453ca5020a7bf40a1eb4ec2e40e48db08f0a0cbfff",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/dhclient.yml",
+   "name": "roles/postinstall/handlers/dhclient.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "e4e1e1c50fbe387277dee5643e951bcc343ac78bdb8f0321b7522fa39f033117",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/syslogd.yml",
+   "name": "roles/postinstall/handlers/syslogd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "98c0d4da4dd445c396ca77f92e4dcc3c325f8245ea9a8f385da9b6196b5a7839",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/fstab.yml",
+   "name": "roles/postinstall/handlers/fstab.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "367041ca8b37f461b303a3977ae14422ca1df208716b54736989df229d3ebdfd",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/wpasupplicant.yml",
+   "name": "roles/postinstall/handlers/wpasupplicant.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "12b3a230092fc0cfeb483f4c877f78789f6b5a85ac7753d874ed32b833e1e169",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/hostapd.yml",
+   "name": "roles/postinstall/handlers/hostapd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "64be3e084d9780998e8202eefe7f84983b6cf636ac056604b0b750e4f3f5f3fc",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/snmpd.yml",
+   "name": "roles/postinstall/handlers/snmpd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "ca274e3867093d0d424d43bc9a6c9f01795c7d310de9e073b936c8ddfe9359c4",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/login.yml",
+   "name": "roles/postinstall/handlers/login.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "560fe3a5465a54d315709e9a1ab8e076533f9ca99fde5c28d54cbefb255139a0",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/sshd.yml",
+   "name": "roles/postinstall/handlers/sshd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "154e5b7c55461bd6a4e243d1aec99071c0f574b8c08813d1a14ac5323d08765f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/ntpdate.yml",
+   "name": "roles/postinstall/handlers/ntpdate.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "fc5cc3eb707c3fb134b8f286cb73a5b912b133af9e8e7344ed35f1388f127546",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/qemu.yml",
+   "name": "roles/postinstall/handlers/qemu.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "8041671b0aace6a8523270b8593ebfd97227ca0b3830e9c8df9a8812117fa158",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/rpcbind.yml",
+   "name": "roles/postinstall/handlers/rpcbind.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "66f472e19c2617a2c8cf87fac83e0daaeeea3c3de181b2440766fce87a67603c",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/syslog-ng.yml",
+   "name": "roles/postinstall/handlers/syslog-ng.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d057db272710eedb734b325286ca8dd362d764a7db26e3f1631df7943b7de5e1",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/devfs.yml",
+   "name": "roles/postinstall/handlers/devfs.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "424542ffde82cec9bf08a74ad59c237d65e3267e12206241b7f4bf84bd5062c3",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/newaliases.yml",
+   "name": "roles/postinstall/handlers/newaliases.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "d553dd519b07993ede65e2c2a9b2ba36fd4a754f9859c59c4adc35477dd26f7f",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/apcupsd.yml",
+   "name": "roles/postinstall/handlers/apcupsd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c763f4ca51f90a3d6b444606173b2f8e0b92ddd40c39c74bda8c47a10b3ec844",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/smartd.yml",
+   "name": "roles/postinstall/handlers/smartd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "76695b2c6aa3cad43b9c795362d0d2df858529ccda1cd7382b31fca58854d781",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/devd.yml",
+   "name": "roles/postinstall/handlers/devd.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "c23f470d5990755a60164e2ecb0c3eac5e2c65a844194f8039f2c9e68dbd47ec",
    "format": 1
   },
   {
-   "name": "roles/postinstall_2_8_6/handlers/swap.yml",
+   "name": "roles/postinstall/handlers/swap.yml",
    "ftype": "file",
    "chksum_type": "sha256",
    "chksum_sha256": "a1a8d21e5c00d69b852d9706b154a764998f3171330e78070c7079620fcf371d",
-   "format": 1
-  },
-  {
-   "name": "roles/.gitkeep",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "format": 1
   }
  ],

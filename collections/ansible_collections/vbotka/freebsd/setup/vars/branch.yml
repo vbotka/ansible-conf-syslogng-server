@@ -1,9 +1,0 @@
----
-branch:
-  connection:
-    jailexec: main
-  inventory:
-    iocage: release
-  modules:
-    iocage: current
-    ucl: current

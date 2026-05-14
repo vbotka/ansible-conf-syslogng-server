@@ -2,7 +2,7 @@
  "collection_info": {
   "namespace": "vbotka",
   "name": "freebsd",
-  "version": "0.8.20",
+  "version": "0.8.22",
   "authors": [
    "Vladimir Botka <vbotka@gmail.com>"
   ],
@@ -32,7 +32,7 @@
   "name": "FILES.json",
   "ftype": "file",
   "chksum_type": "sha256",
-  "chksum_sha256": "0f05b9f957b41f2dd30cf1d4a934b17abca91a7f51668601a70914a326817a74",
+  "chksum_sha256": "51df81872372676d5982fd4090c3f8df70b0ee7bcc750f5b2f5d49f0956cd048",
   "format": 1
  },
  "format": 1
