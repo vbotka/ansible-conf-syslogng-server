@@ -27,7 +27,7 @@ fp_syslogng_conf:
       - file("/var/log/remote/${HOST}/${YEAR}_${MONTH}_${DAY}.log" create-dirs(yes))
   filter:
     f_messages:
-      - level(notice..emerg) and not facility(auth, authpriv, lpr, mail, news)
+      - level(notice..emerg) and not facility(auth, authpriv, lpr, mail, news, daemon)
     f_daemon:
       - facility(daemon)
   log:
