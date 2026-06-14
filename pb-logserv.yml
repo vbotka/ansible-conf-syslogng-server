@@ -9,6 +9,7 @@
   tasks:
 
     - name: Install packages.
+      when: ansible_is_pull_mode | d(false)
       community.general.pkgng:
         name:
           - lnav
