@@ -7,9 +7,21 @@
   hosts: localhost.my.domain
     
   tasks:
+      
+    - name: Include variables from ai_vars directory.
+      when: item is match('.*\.(yml|yaml)$')
+      ansible.builtin.include_vars:
+        file: "{{ item }}"
+      loop: "{{ query('ansible.builtin.fileglob', ai_vars ~ '/*') }}"
+
+    - name: Display vars.
+      ansible.builtin.debug:
+        msg: |
+          ai_pull_mode: {{ ai_pull_mode | d(false) }}
+          ai_vars: {{ ai_vars }}
 
     - name: Install packages.
-      when: ansible_pull_mode | d(false)
+      when: ai_pull_mode | d(false)
       community.general.pkgng:
         name:
           - lnav
