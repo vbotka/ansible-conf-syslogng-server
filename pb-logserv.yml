@@ -21,7 +21,7 @@
           ai_vars: {{ ai_vars }}
 
     - name: Install packages.
-      when: ai_pull_mode | d(false)
+      when: ai_pull_mode | d(false) | bool
       community.general.pkgng:
         name:
           - lnav
